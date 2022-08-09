@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos</title>
+    <!-- FAVICON LINK -->
+    <link rel="icon" href="favicon.ico">
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- FONTAWESOME LINK --> 
+    <script src="https://kit.fontawesome.com/16d2152848.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="text-center text-light my-5">
+            <h1 class="mb-4">Todos List</h1>
+            <form class="search">
+                <input class="searcher form-control m-auto" type="text" name="search" placeholder="search todos">
+            </form>
+        </header>
+
+        <ul class="todos list-group mx-auto text-light">
+            <li class="list-group-item d-flex justify-content-between align-items-center text-light py-3">
+                <span>offer fajar prayer</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center text-light py-3">
+                <span>go for a morning walk</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center text-light py-3">
+                <span>start studing</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+        </ul>
+
+        <form class="add text-center my-4">
+            <label class="text-light mb-2">Add a new todo...</label>
+            <input class="form-control m-auto" type="text" name="add">
+        </form>
+
+    </div>
+
+    <footer class="text-center my-5">
+        <p class="footer-text">Made by Abdullah Nadir ❤</p>
+    </footer>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
